@@ -4,9 +4,33 @@ Third-party API for accessing JeFit data
 
 ## Installation
 
+`npm install jefit`
+
+OR
+
+`yarn add jefit`
+
+## Prerequisites
+
+* This client will only work if your privacy (under your settings) is set to: <b>Everyone</b>
+* Grab your userId from https://www.jefit.com/my-jefit/, look for https://jefit.com/[USERID] url.
+
 ## Usage
 
 `var jefit = require('jefit');`
+
+### jefit.fetchMostRecent(userId, callback)
+
+* userId `String`
+* callback `Function`
+
+Example:
+
+```
+jefit.fetchMostRecent('111111', function (result) {
+  console.log(result);
+});
+```
 
 ### jefit.fetchSingleDate(userId, date, callback)
 
@@ -22,7 +46,7 @@ jefit.fetchSingleDate('111111', '2014-01-13', function (result) {
 });
 ```
 
-Output:
+### Output:
 
 ```
 {
