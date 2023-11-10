@@ -1,5 +1,5 @@
 var jefit = require('../index.js');
-var config = require('./config.json');
+var config = require('./config.example.json');
 
 jefit.fetchSingleDate(config.username, '2013-06-14', function (result) {
   console.log(JSON.stringify(result, null, 2));
