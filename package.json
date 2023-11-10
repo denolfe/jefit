@@ -2,7 +2,7 @@
   "name": "jefit",
   "version": "0.0.2",
   "description": "Third-party API for accessing JeFit data",
-  "main": "index.js",
+  "main": "app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -20,6 +20,6 @@
   "license": "MIT",
   "dependencies": {
     "cheerio": "^0.19.0",
-    "request": "^2.55.0"
+    "request": "^2.88.2"
   }
 }
