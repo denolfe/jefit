@@ -19,7 +19,7 @@ OR
 
 `var jefit = require('jefit');`
 
-### jefit.fetchMostRecent(userId, callback)
+### jefit.fetchMostRecent(username, callback)
 
 * userId `String`
 * callback `Function`
@@ -27,8 +27,8 @@ OR
 Example:
 
 ```
-jefit.fetchMostRecent('jjderz', function (result) {
-  console.log(result);
+jefit.fetchMostRecent('jjderz', function (error, result) {
+  console.log(JSON.stringify(result, null, 2));
 });
 ```
 
@@ -41,8 +41,8 @@ jefit.fetchMostRecent('jjderz', function (result) {
 Example:
 
 ```
-jefit.fetchSingleDate('jjderz', '2023-12-11', function (result) {
-  console.log(result);
+jefit.fetchSingleDate('jjderz', '2023-12-11', function (error, result) {
+  console.log(JSON.stringify(result, null, 2));
 });
 ```
 
