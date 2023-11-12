@@ -27,21 +27,21 @@ OR
 Example:
 
 ```
-jefit.fetchMostRecent('111111', function (result) {
+jefit.fetchMostRecent('jjderz', function (result) {
   console.log(result);
 });
 ```
 
-### jefit.fetchSingleDate(userId, date, callback)
+### jefit.fetchSingleDate(username, date, callback)
 
-* userId `String`
+* username `String`
 * date `String` with format `YYYY-MM-DD`
 * callback `Function`
 
 Example:
 
 ```
-jefit.fetchSingleDate('111111', '2014-01-13', function (result) {
+jefit.fetchSingleDate('jjderz', '2023-12-11', function (result) {
   console.log(result);
 });
 ```
@@ -55,43 +55,132 @@ jefit.fetchSingleDate('111111', '2014-01-13', function (result) {
       "sets": [
         {
           "index": 1,
-          "duration": 600
+          "weight": 160,
+          "reps": 13
+        },
+        {
+          "index": 2,
+          "weight": 160,
+          "reps": 11
+        },
+        {
+          "index": 3,
+          "weight": 160,
+          "reps": 9
         }
       ],
-      "name": "Elliptical Training",
-      "oneRepMax": null,
-      "type": "Cardio"
+      "name": "Leverage Incline Chest Press",
+      "oneRepMax": 229,
+      "type": "Lift"
     },
     {
       "sets": [
         {
           "index": 1,
-          "weight": 25,
-          "reps": 12
+          "weight": 140,
+          "reps": 9
         },
         {
           "index": 2,
-          "weight": 30,
+          "weight": 140,
+          "reps": 8
+        }
+      ],
+      "name": "Leverage Chest Press",
+      "oneRepMax": 182,
+      "type": "Lift"
+    },
+    {
+      "sets": [
+        {
+          "index": 1,
+          "weight": 12,
+          "reps": 15
+        },
+        {
+          "index": 2,
+          "weight": 12,
+          "reps": 13
+        }
+      ],
+      "name": "Seated Cable Pec Fly",
+      "oneRepMax": 18,
+      "type": "Lift"
+    },
+    {
+      "sets": [
+        {
+          "index": 1,
+          "weight": 57.5,
+          "reps": 14
+        },
+        {
+          "index": 2,
+          "weight": 57.5,
+          "reps": 11
+        },
+        {
+          "index": 3,
+          "weight": 57.5,
+          "reps": 11
+        }
+      ],
+      "name": "Cable Tricep Pushdown (V-Bar)",
+      "oneRepMax": 84,
+      "type": "Lift"
+    },
+    {
+      "sets": [
+        {
+          "index": 1,
+          "weight": 40,
+          "reps": 18
+        },
+        {
+          "index": 2,
+          "weight": 40,
           "reps": 12
         },
         {
           "index": 3,
-          "weight": 35,
-          "reps": 12
+          "weight": 40,
+          "reps": 10
         }
       ],
-      "name": "Dumbbell Bench Press",
-      "oneRepMax": 49,
+      "name": "Machine Deltoid Raise",
+      "oneRepMax": 64,
+      "type": "Lift"
+    },
+    {
+      "sets": [
+        {
+          "index": 1,
+          "weight": 16,
+          "reps": 16
+        },
+        {
+          "index": 2,
+          "weight": 16,
+          "reps": 12
+        },
+        {
+          "index": 3,
+          "weight": 14,
+          "reps": 8
+        }
+      ],
+      "name": "Retro Cable ab crunch",
+      "oneRepMax": 24,
       "type": "Lift"
     }
   ],
-  "date": "2015-08-03",
-  "sessionLength": 1602,
-  "actualWorkout": 1062,
-  "wastedTime": 0,
-  "restTimer": 540,
-  "exercisesDone": 2,
-  "weightLifted": 1080
+  "date": "2023-11-12",
+  "sessionLength": 3727,
+  "actualWorkout": 713,
+  "wastedTime": 508,
+  "restTimer": 2056,
+  "exercisesDone": 6,
+  "weightLifted": 12226
 }
 ```
 
