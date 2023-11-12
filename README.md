@@ -13,7 +13,7 @@ OR
 ## Prerequisites
 
 * This client will only work if your privacy (under your settings) is set to: <b>Everyone</b>
-* Grab your userId from https://www.jefit.com/my-jefit/, look for https://jefit.com/[USERID] url.
+* Grab your userId from https://www.jefit.com/my-jefit/, look for https://jefit.com/user/[USERNAME] url.
 
 ## Usage
 
