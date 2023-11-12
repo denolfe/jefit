@@ -2,7 +2,7 @@
   "name": "jefit",
   "version": "0.0.2",
   "description": "Third-party API for accessing JeFit data",
-  "main": "test2.js",
+  "main": "test.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
